@@ -8,6 +8,11 @@
         "RetentionOffersAccepted",
         "MadeCallToRetentionTeam"
     ],
+    "feature_engineering_thresholds": {
+        "low_usage_threshold": 158.0,
+        "older_equipment_threshold": 329.0,
+        "high_overage_threshold": 65.0
+    },
     "validation_metrics": {
         "roc_auc": 0.6621,
         "pr_auc": 0.4342

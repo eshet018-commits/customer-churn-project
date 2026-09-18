@@ -24,7 +24,9 @@ data/processed/*
 !data/README.md
 
 # Model artifacts
-models/
+# Generated model artifacts
+models/*
+!models/model_metadata.json
 *.pkl
 *.joblib
 *.keras

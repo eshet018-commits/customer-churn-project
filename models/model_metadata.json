@@ -1,0 +1,23 @@
+{
+    "model_name": "Retention-Free Regularized Gradient Boosting",
+    "model_type": "HistGradientBoostingClassifier",
+    "decision_threshold": 0.27,
+    "predictor_count": 61,
+    "excluded_retention_features": [
+        "RetentionCalls",
+        "RetentionOffersAccepted",
+        "MadeCallToRetentionTeam"
+    ],
+    "validation_metrics": {
+        "roc_auc": 0.6621,
+        "pr_auc": 0.4342
+    },
+    "test_metrics": {
+        "accuracy": 0.5763,
+        "precision": 0.3779,
+        "recall": 0.7277,
+        "f1": 0.4974,
+        "roc_auc": 0.6738,
+        "pr_auc": 0.4417
+    }
+}
